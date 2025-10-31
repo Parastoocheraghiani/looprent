@@ -1,1 +1,1 @@
-web: gunicorn rentify_project.wsgi
+web: gunicorn rentify_project.wsgi:application
